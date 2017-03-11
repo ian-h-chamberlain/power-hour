@@ -48,4 +48,4 @@ for line in infile:
     result = result.append(next_result, crossfade=(0 * 1000))
 
 # save the final file
-result.export(outfile, format='mp3')
+result.export(outfile, format="flac")
